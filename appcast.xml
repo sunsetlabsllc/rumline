@@ -1,6 +1,31 @@
 <?xml version="1.0" standalone="yes"?>
 <rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle">
     <channel>
-        <title>Rumline</title>    
+        <title>Rumline</title>
+        <link>https://rumlineapp.com/appcast.xml</link>
+        <item>
+          <title>Version 1.0.0</title>
+          <sparkle:version>1</sparkle:version>
+          <sparkle:shortVersionString>1.0.0</sparkle:shortVersionString>
+          <sparkle:minimumSystemVersion>15.4</sparkle:minimumSystemVersion>
+          <pubDate>Tue, 12 May 2026 06:00:00 -0500</pubDate>
+          <enclosure
+            url="https://github.com/sunsetlabsllc/rumline/releases/download/v1.0.0/Rumline-1.0.0.zip"
+            sparkle:edSignature="hhaIsnF+fLOGFduB+GC624uJpLLNG2PljXMCt5Ol4aO63qkD9j/TVezs1PZ8mv7MFWRTNUn2eMQ5VSPlGUrUDg=="
+            length="6234754"
+            type="application/octet-stream" />
+        </item>
+        <item>
+          <title>Version 1.0.1</title>
+          <sparkle:version>2</sparkle:version>
+          <sparkle:shortVersionString>1.0.2</sparkle:shortVersionString>
+          <sparkle:minimumSystemVersion>15.4</sparkle:minimumSystemVersion>
+          <pubDate>Tue, 12 May 2026 06:00:00 -0500</pubDate>
+          <enclosure
+            url="https://github.com/sunsetlabsllc/rumline/releases/download/v1.0.1/Rumline-1.0.1.zip"
+            sparkle:edSignature="4dt/FXb4Hdys2McvyKBGg1CZPBWSZ2n5+Uq0C/QnWEX/JqrODs7BSK479JZB83bO2hG66C23h+bY/hZxKaCPBA=="
+            length="6234814"
+            type="application/octet-stream" />
+        </item>
     </channel>
 </rss>
