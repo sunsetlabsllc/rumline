@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Rumline — A workspace for solo contractors</title>
+<meta name="description" content="Rumline is a macOS app for solo contractors juggling many client projects. Project health that derives itself, capture from anywhere, daily focus that earns its place.">
+
+<meta property="og:title" content="Rumline">
+<meta property="og:description" content="A workspace for solo contractors juggling many client projects.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://labs.timw.co/rumline/">
+
+<link rel="icon" type="image/png" href="assets/icon.png">
+<link rel="apple-touch-icon" href="assets/icon.png">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Public+Sans:ital,wght@0,300;0,400;0,500;0,600;1,400&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="styles.css">
+
+</head>
+<body>
+
+<header class="strip">
+  <div class="container strip-inner">
+    <div class="strip-mark">
+      <span class="strip-mark-bars" aria-hidden="true">
+        <span></span><span></span><span></span>
+      </span>
+      <span>Rumline</span>
+    </div>
+    <div class="strip-meta">A Neonflow Project</div>
+  </div>
+</header>
+
+<main>
+
+  <!-- HERO -->
+  <section class="container hero">
+    <div class="container">
+      <div class="hero-icon reveal reveal-1">
+        <img src="assets/icon.png" alt="Rumline icon" width="156" height="156">
+      </div>
+      <p class="hero-eyebrow reveal reveal-2">A macOS app · Released 2026</p>
+      <h1 class="hero-title reveal reveal-3">
+        A workspace for the <em>solo<br>contractor.</em>
+      </h1>
+      <p class="hero-deck reveal reveal-4">
+        Rumline is the daily command center for people juggling multiple client projects across half a dozen companies. Project health that derives itself. Capture from anywhere. A morning brief that actually earns its place.
+      </p>
+      <div class="hero-cta reveal reveal-5">
+        <a class="btn" href="#" rel="noopener">
+          Coming Soon for macOS
+          <svg viewBox="0 0 14 14" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="M7 1v9M3 7l4 4 4-4M2 13h10"/>
+          </svg>
+        </a>
+        <span class="hero-meta">
+          <strong>v1.0.0</strong> &nbsp;·&nbsp; macOS 15.4 &nbsp;·&nbsp; Apple Silicon
+        </span>
+      </div>
+    </div>
+  </section>
+
+  <!-- PITCH -->
+  <section class="prose-section">
+    <div class="container">
+      <p class="prose-eyebrow">Why it exists</p>
+      <div class="prose">
+        <p>
+          The friction wasn't the projects. It wasn't the tasks. It was the <strong>seam</strong> — the moment between noticing something needed doing and actually getting it captured against the right project, with the right context, before it slipped.
+        </p>
+        <p>
+          Every day started with the same question: <em>which of my numerous clients needs me first today?</em> And every honest answer required ten minutes of cross-referencing multiple tools.
+        </p>
+        <p>
+          Rumline collapses that seam. One hotkey, one input, one parser. Project health that derives itself from workload and freshness, never set by hand. A daily brief that names the one thing that, if done today, would matter most.
+        </p>
+      </div>
+
+      <!-- Replace this placeholder with your actual screenshot ~1600x1000
+      <div class="shot">
+        <img src="screenshots/dashboard.png" alt="Rumline dashboard" onerror="this.outerHTML='<div class=&quot;shot-placeholder&quot;>screenshots/dashboard.png<br><span style=color:var(--text-dim)>(drop your screenshot here)</span></div>'">
+      </div>
+      -->
+    </div>
+  </section>
+
+  <!-- HEALTH COLORS -->
+  <section class="health-section">
+    <div class="container">
+      <p class="prose-eyebrow">The signal</p>
+      <h2 class="health-headline">
+        Three colors. <em>One discipline.</em>
+      </h2>
+      <p class="health-sub">
+        Project health is computed, never declared. Every project sits in one of three states based on workload and time since last touchpoint. The cause is shown alongside the band — no project is ever just "red," it's "red because four open tasks and last contact twenty-one days ago."
+      </p>
+
+      <div class="health-grid">
+        <div class="health-cell critical">
+          <div class="health-bar"></div>
+          <div class="health-label">Critical</div>
+          <h3 class="health-name">Needs you now</h3>
+          <p class="health-desc">Overdue tasks, or a client gone quiet past your cadence. The thing that wakes you up at 2am if you don't deal with it today.</p>
+        </div>
+        <div class="health-cell monitor">
+          <div class="health-bar"></div>
+          <div class="health-label">Monitor</div>
+          <h3 class="health-name">Watch the drift</h3>
+          <p class="health-desc">Approaching the cadence cliff. Workload climbing. Not on fire, but the kind of thing that becomes critical by Friday if ignored.</p>
+        </div>
+        <div class="health-cell healthy">
+          <div class="health-bar"></div>
+          <div class="health-label">Healthy</div>
+          <h3 class="health-name">Earned its calm</h3>
+          <p class="health-desc">Fresh contact, manageable workload. The reward for keeping the discipline. Most projects belong here. Few do without effort.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FEATURES -->
+  <section class="features-section">
+    <div class="container">
+      <p class="prose-eyebrow">What's inside</p>
+      <h2 class="health-headline">Built for the <em>way you actually work.</em></h2>
+
+      <div class="features-grid">
+        <div class="feature f-capture">
+          <div class="feature-rule"></div>
+          <h3>Capture, <em>anywhere.</em></h3>
+          <p>A global hotkey opens a borderless input, no matter what app you're in. Type a sentence — <span style="font-family:var(--mono);font-size:0.92em;color:var(--text);">Call Geoffrey #bikeshop tomorrow</span> — and the parser handles project shorthand, dates, and priority. No fields to click, no menus to navigate. Faster than your typing speed.</p>
+        </div>
+        <div class="feature f-health">
+          <div class="feature-rule"></div>
+          <h3>Health that <em>derives itself.</em></h3>
+          <p>No "status" field to lie to yourself with. Project state is computed from open task count, overdue tasks, and time since last meaningful touchpoint. The discipline isn't in updating a field — it's in doing the work. Rumline just tells you whether you have.</p>
+        </div>
+        <div class="feature f-focus">
+          <div class="feature-rule"></div>
+          <h3>A brief <em>worth reading.</em></h3>
+          <p>Each morning, a short, AI-composed paragraph names the day's actual focus — overdue first, critical projects second, today's commitments third. It ends with the one thing that, done, would matter most. Generated on-device by default. No daily-standup theater.</p>
+        </div>
+        <div class="feature f-extract">
+          <div class="feature-rule"></div>
+          <h3>Notes <em>into action.</em></h3>
+          <p>Paste call notes or a meeting transcript, pick a project, and Rumline extracts the action items as draft tasks. You review and edit before saving — nothing lands in your system without your sign-off. The cleanup tax of every meeting, paid in seconds.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  <div class="container row">
+    <p class="footer-meta">
+      © 2026 · Neonflow LLC
+    </p>
+  </div>
+</footer>
+
+</body>
+</html>
